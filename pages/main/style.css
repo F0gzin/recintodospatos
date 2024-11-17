@@ -1,0 +1,19 @@
+body {
+    display: block;
+    justify-content: normal;
+    align-items: normal;
+    height: 100%;
+    margin: 0;
+    background-color: #35b2fa;
+    background-image: url("assets/bg.png");
+    background-position: 0%;
+    background-size: 100%;
+    overflow-y: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gif1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}  
