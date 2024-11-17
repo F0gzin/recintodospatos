@@ -4,7 +4,7 @@ body {
     align-items: normal;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #ffff;
     background-size: 10px;
     background-repeat: repeat;
     overflow-y: scroll;
@@ -12,7 +12,7 @@ body {
 }
 
 .principal {
-    background-color: #d7e4f5;
+    background-color: #ffff;
     align-items: center;
     font-size: small;
     width: 40%;
@@ -22,13 +22,13 @@ body {
 
 .lado_direito {
     position: relative;
-    background-color: #a3bad9;
+    background-color: #ffff;
     overflow-y: auto;
     height: 70%;
 }
 
 .banco_de_imagens {
-    background-color: #f0f0f0;
+    background-color: #ffff;
     position: fixed;
 
     overflow-y: hidden;
