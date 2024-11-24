@@ -9,6 +9,7 @@ body {
     background-repeat: repeat;
     overflow-y: scroll;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: pre-line"
 }
 
 .principal {
@@ -23,6 +24,17 @@ body {
 .lado_direito {
     position: relative;
     background-color: #ffff;
+    overflow-x:scroll;
+    overflow-y: auto;
+    width: 70%;
+    height: 70%;
+}
+
+.lado_esquerdo {
+    background-color: #ffff;
+    align-items: center;
+    font-size: small;
+    width: 50%;
     overflow-y: auto;
     height: 70%;
 }
