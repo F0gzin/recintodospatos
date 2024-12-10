@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: normal;
+    align-items: normal;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-size: 10px;
+    background-repeat: repeat;
+    overflow-y: scroll;
+    font-family: 'Comic Sans MS', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.principal {
+    background-color: #ffff;
+    align-items: center;
+    font-size: small;
+    width: 40%;
+    overflow-y: auto;
+    height: 70%;
+}
+
+.lado_direito {
+    position: relative;
+    background-color: #ffff;
+    overflow-x:scroll;
+    overflow-y: auto;
+    width: 70%;
+    height: 70%;
+    border: black;
+    border-width: 2px;
+    border-style:solid;
+}
+
+.lado_esquerdo {
+    background-color: #ffff;
+    align-items: center;
+    font-size: small;
+    width: 50%;
+
+    overflow-y: scroll;
+    border: black;
+    border-width: 2px;
+    border-style:solid;
+}
+
+.banco_de_imagens {
+    background-color: #ffff;
+    position: fixed;
+
+    display: flex;
+
+    overflow-y: scroll;
+    overflow-x: scroll;
+
+    flex-wrap: wrap;
+
+    border: black;
+    border-width: 2px;
+    border-style:solid;
+
+    width: 100%;
+    height: 30%;
+
+    bottom: 0;
+}
+
+.img1{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    cursor: pointer ;
+}
+
+.img1_div {
+    position: relative;
+    width: 110px;
+    height: 110px;
+}
+
+.foto {
+    width: 124px;
+    height: 124px;
+}
+
+.subtitle_image {
+    font-size: 10%;
+    position:relative;
+    left: 1%;
+    bottom: 140px;
+}
