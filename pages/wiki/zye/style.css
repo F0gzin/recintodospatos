@@ -27,6 +27,11 @@ body {
     overflow-y: auto;
     width: 70%;
     height: 70%;
+
+    overflow-y: scroll;
+    border: black;
+    border-width: 2px;
+    border-style:solid;
 }
 
 .lado_esquerdo {
@@ -49,6 +54,11 @@ body {
     height: 30%;
 
     bottom: 0;
+
+    overflow-y: scroll;
+    border: black;
+    border-width: 2px;
+    border-style:solid;
 }
 
 .img1{
